@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Shippori+Mincho+B1:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=M+PLUS+Rounded+1c:wght@500&display=swap');
 
 body {
-  font-family: 'Stick', sans-serif;
   margin: 0;
   padding: 0;
   background-image: url("black.png"), url("blue.png"), url("green.png"), url("orange.png"), url("pink.png");
@@ -12,14 +11,14 @@ body {
 }
 
 h1 {
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 50px;
   margin-bottom: 20px;
 }
 
 h2 {
   font-family: 'M PLUS 1 Code', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
@@ -68,7 +67,7 @@ ul.gnav-navi-1 {
 
 
 ul.gnav-navi-1 li a {
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #fff;
   text-decoration: none;
 }
