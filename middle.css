@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Shippori+Mincho+B1:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("image/splash_all_color/black.png"), url("image/splash_all_color/blue.png"), url("image/splash_all_color/green.png"), url("image/splash_all_color/orange.png"), url("image/splash_all_color/pink.png");
+  background-position: 10% 35%, 5% 70%, 10% 90%, 90% 50%, 100% 80%;
+  background-size: 25%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  transform: scale(0.9,1.2);
+}
+
+h2 {
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+/* Navbar Container */
+.navtext-container {
+  width: 100%;
+  height: 52px;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar Text */
+.navtext {
+  position: absolute;
+  text-transform: uppercase;
+  color: #ddd;
+  letter-spacing: 4px;
+
+}
+
+header {
+  width: 1440px;
+  background-color: #ff3131;
+  position: fixed;
+  z-index: 10;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul.gnav-navi-1 {
+  background: #ff3131;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+
+
+ul.gnav-navi-1 li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+
+.video_wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video_wrapper>video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%; /* 幅 */
+  margin: auto;
+}
+th, td {
+  padding: 5px 15px;
+  border: solid 1px #a5d1f1;
+}
+th {
+  background-color: #d0ebfd;
+}
+
+
+footer {
+  background-color: #ff3131;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
