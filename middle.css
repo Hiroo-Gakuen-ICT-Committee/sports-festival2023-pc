@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 50px;
   margin-bottom: 20px;
   transform: scale(0.9,1.2);
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-family: 'M PLUS 1 Code', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
   
 }
@@ -71,7 +71,7 @@ ul.gnav-navi-1 {
 ul.gnav-navi-1 li a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
