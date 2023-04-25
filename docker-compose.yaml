@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  app:
+    image: node:18.15.0-slim
+    container_name: app
+    ports:
+      - 3001:3001
+    working_dir: /app
+    volumes:
+      - ./app:/app
+      - /app/node_modules
+    command: sh -c "
+      npm install -g npm@9.6.3&&
+      npm install&&
+      npm install nodemon -g&&
+      nodemon --legacy-watch app.js"
+    tty: true
+    stdin_open: true
+    networks:
+      sports:
+        ipv4_address: 192.168.1.2
+networks:
+  sports:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.1.1/24
