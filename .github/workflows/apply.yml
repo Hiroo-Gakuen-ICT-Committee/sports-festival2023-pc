@@ -1,0 +1,11 @@
+name: server apply job
+on:
+  push:
+    branches:
+      - test-dev
+jobs:
+  test_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo test_1
+        run: echo "test_1"
