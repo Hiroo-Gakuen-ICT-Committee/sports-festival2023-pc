@@ -12,6 +12,8 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   text-align: center;
+  width: 100vw;
+
 }
 
 h1 {
@@ -51,7 +53,7 @@ h2 {
 }
 
 header {
-  width: 1440px;
+  width: 100vw;
   background-color: #5271FF;
   position: fixed;
   z-index: 10;
@@ -70,6 +72,7 @@ ul.gnav-navi-2 {
   justify-content: right;
   list-style-type: none;
   gap: 30px;
+
 }
 
 ul.gnav-navi-2 li a {
@@ -86,6 +89,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .btn-square {
