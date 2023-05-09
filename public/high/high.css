@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=M+PLUS+Rounded+1c:wght@500&display=swap');
-
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/public/images/black.png"),
-    url("/public/images/blue.png"),
-    url("/public/images/green.png"),
-    url("/public/images/orange.png"),
-    url("/public/images/pink.png");
-  background-position: 10% 35%, 5% 70%, 10% 90%, 90% 50%, 100% 80%;
-  background-size: 25%;
+  background-image: url("image/splash_all_color/black.png"), url("image/splash_all_color/blue.png"), url("image/splash_all_color/green.png"), url("image/splash_all_color/orange.png"), url("image/splash_all_color/pink.png");
+  background-position: 10% 35%, 5% 70%, 100% 90%, 100% 50%, 100% 20%;
+  background-size: 35%;
   background-repeat: no-repeat;
   text-align: center;
-  width: 100vw;
-
 }
 
 h1 {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 50px;
   margin-bottom: 20px;
-  transform: scale(0.9, 1.2);
+  transform: scale(0.9,1.2);
 }
 
 h2 {
   font-family: 'M PLUS 1 Code', sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
+}
 
+h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+  transform: scale(0.9,1.2);
 }
 
 
@@ -67,12 +66,11 @@ header {
 ul.gnav-navi-2 {
   background: #5271FF;
   padding: 0;
-  text-align: center;
+  text-align:center;
   display: flex;
-  justify-content: right;
+  justify-content:right;
   list-style-type: none;
   gap: 30px;
-
 }
 
 ul.gnav-navi-2 li a {
@@ -81,35 +79,30 @@ ul.gnav-navi-2 li a {
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.gnav-navi-2 {
+.gnav-navi-2{
   margin-right: 100px;
 }
 
-nav {
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .btn-square {
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
-  background: #a8b8ff;
-  /*ボタン色*/
+  background: #a8b8ff;/*ボタン色*/
   color: #FFF;
   border-bottom: solid 4px #596ddf;
   border-radius: 3px;
 }
-
 .btn-square:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
-  transform: translateY(4px);
-  /*下に動く*/
-  border-bottom: none;
-  /*線を消す*/
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
 }
 
 .video_wrapper {
@@ -143,18 +136,14 @@ nav {
 
 table {
   border-collapse: collapse;
-  width: 60%;
-  /* 幅 */
+  width: 60%; /* 幅 */
   margin: auto;
   background-color: white;
 }
-
-th,
-td {
+th, td {
   padding: 5px 15px;
   border: solid 1px #a5d1f1;
 }
-
 th {
   background-color: #d0ebfd;
 }
