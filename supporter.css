@@ -1,5 +1,5 @@
 body {
-    background-image: url("splash_macbook.png");
+  background-image: url("スプラッシュ(2).png");
 	text-align: center;
 }
 header {
@@ -53,7 +53,7 @@ h1 {
 .box {
     margin: 30px;
     padding: 20px;
-    width: 400px;
+    width: 360px;
     height: 500px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
