@@ -1,11 +1,12 @@
 body {
-    background-image: url("splash_macbook.png");
+    background-image: url("スプラッシュ(2).png");
 	text-align: center;
 }
 
 header {
-  background-color: #5271FF;
+  background-color: #ff3131;
   height: 80px;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
