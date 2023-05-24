@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Zen+Kaku+Gothic+New&display=swap');
 body {
-  background-image: url("スプラッシュ(2).png");
+  background-image: url("スプラッシュ.png");
 	text-align: center;
 }
 header {
   background-color: #5271FF;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 
 h1 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   margin: 10px 0px;
   font-size: 20px;
   text-align: center;
@@ -36,6 +38,7 @@ h1 {
 }
 
 .global-nav a {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -53,8 +56,8 @@ h1 {
 .box {
     margin: 30px;
     padding: 20px;
-    width: 360px;
-    height: 500px;
+    width: 370px;
+    height: 670px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 10px;
@@ -67,26 +70,27 @@ h1 {
 }
 
 .box img {
-    width: 300px;
-    height:200px;
-    object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
+    width: 320px;
+    height:250px;
 }
 
 .box h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
     margin: 10px 0px;
     font-size: 24px;
     text-align: center;
 }
 
 .box h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
     margin: 10px 0px;
     font-size: 16px;
     text-align: center;
 }
 
 .box p {
+  font-family: 'Klee One', cursive;
     margin: 10px;
-    font-size: 14px;
+    font-size: 10px;
     text-align: justify;
 }
