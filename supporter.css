@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Zen+Kaku+Gothic+New&display=swap');
 body {
-  background-image: url("スプラッシュ.png");
+  background-image: url("スプラッシュ(2).png");
 	text-align: center;
 }
 header {
@@ -53,7 +53,7 @@ h1 {
 }
 
 
-.box {
+.box1 {
     margin: 30px;
     padding: 20px;
     width: 370px;
@@ -69,28 +69,325 @@ h1 {
     flex-direction: column;
 }
 
-.box img {
-    width: 320px;
-    height:250px;
+.box1 img {
+  height: 300px;  
+  width: 300px;
 }
 
-.box h2 {
+.box2 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box2 img {
+  height: 240px;  
+  width: 320px;
+}
+
+.box3 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box3 img {
+  height: 300px;  
+  width: 300px;
+}
+
+.box4 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box4 img {
+  height: 300px;  
+  width: 300px;
+}
+
+.box5 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box5 img {
+  height: 300px;  
+  width: 300px;
+}
+
+.box6 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box6 img {
+  height: 250px;  
+  width: 250px;
+}
+
+.box7 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box7 img {
+  height: 300px;  
+  width: 300px;
+}
+
+.box8 {
+  margin: 30px;
+  padding: 20px;
+  width: 370px;
+  height: 670px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  float: left;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box8 img {
+  height: 260px;  
+  width: 260px;
+}
+
+.box1 h2 {
   font-family: 'Zen Kaku Gothic New', sans-serif;
     margin: 10px 0px;
     font-size: 24px;
     text-align: center;
 }
 
-.box h3 {
+.box1 h3 {
   font-family: 'Zen Kaku Gothic New', sans-serif;
     margin: 10px 0px;
     font-size: 16px;
     text-align: center;
 }
 
-.box p {
+.box1 p {
   font-family: 'Klee One', cursive;
     margin: 10px;
     font-size: 10px;
     text-align: justify;
 }
+
+.box2 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box2 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box2 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.box3 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box3 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box3 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.box4 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box4 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box4 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.box5 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box5 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box5 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.box6 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box6 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box6 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.box7 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box7 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box7 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.box8 h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box8 h3 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box8 p {
+  font-family: 'Klee One', cursive;
+    margin: 10px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+
