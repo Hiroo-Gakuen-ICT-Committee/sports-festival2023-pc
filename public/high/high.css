@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/public/images/black.png"), url("/public/images/blue.png"), url("/public/images/green.png"), url("/public/images/orange.png"), url("/public/images/pink.png");
+  background-image: url("image/splash_all_color/black.png"), url("image/splash_all_color/blue.png"), url("image/splash_all_color/green.png"), url("image/splash_all_color/orange.png"), url("image/splash_all_color/pink.png");
   background-position: 10% 35%, 5% 70%, 100% 90%, 100% 50%, 100% 20%;
   background-size: 35%;
   background-repeat: no-repeat;
